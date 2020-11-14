@@ -12,7 +12,7 @@ This CocoaPods library helps you perform calculation.
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "001aashish" => "aashishkatiyar20@gmail.com" }
 
-  spec.ios.deployment_target = "12.1"
+  spec.ios.deployment_target = "11.0"
   spec.swift_version = "4.2"
 
   spec.source        = { :git => "https://github.com/001aashish/SwiftyLibAashish.git", :tag => "#{spec.version}" }
