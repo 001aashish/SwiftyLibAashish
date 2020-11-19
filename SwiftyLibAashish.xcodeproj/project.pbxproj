@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		944B19E22566C95700F713F4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B19E12566C95700F713F4 /* User.swift */; };
+		944B19E42566CDD400F713F4 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B19E32566CDD400F713F4 /* Address.swift */; };
 		944D0C6A255FE1390059FEDD /* SwiftyLibAashish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944D0C60255FE1390059FEDD /* SwiftyLibAashish.framework */; };
 		944D0C6F255FE1390059FEDD /* SwiftyLibAashishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D0C6E255FE1390059FEDD /* SwiftyLibAashishTests.swift */; };
 		944D0C71255FE1390059FEDD /* SwiftyLibAashish.h in Headers */ = {isa = PBXBuildFile; fileRef = 944D0C63255FE1390059FEDD /* SwiftyLibAashish.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		944B19E12566C95700F713F4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		944B19E32566CDD400F713F4 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		944D0C60255FE1390059FEDD /* SwiftyLibAashish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLibAashish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		944D0C63255FE1390059FEDD /* SwiftyLibAashish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyLibAashish.h; sourceTree = "<group>"; };
 		944D0C64255FE1390059FEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				944D0C63255FE1390059FEDD /* SwiftyLibAashish.h */,
 				944D0C64255FE1390059FEDD /* Info.plist */,
 				944B19E12566C95700F713F4 /* User.swift */,
+				944B19E32566CDD400F713F4 /* Address.swift */,
 			);
 			path = SwiftyLibAashish;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944B19E42566CDD400F713F4 /* Address.swift in Sources */,
 				944B19E22566C95700F713F4 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
