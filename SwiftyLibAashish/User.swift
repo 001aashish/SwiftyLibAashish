@@ -8,3 +8,12 @@
 
 import Foundation
 
+class User {
+    let fName: String
+    let lName: String
+    
+    init() {
+        fName = ""
+        lName = ""
+    }
+}
